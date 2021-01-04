@@ -1,0 +1,28 @@
+body {
+    background-color: #30475e;
+}
+
+.today {
+    display: none;
+}
+
+.remove {
+    display: none;
+}
+
+.container {
+    position: relative;
+    background-color: #222831;
+    border-radius: 10px;
+}
+
+.row {
+    position: relative;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.btn {
+    position: relative;
+    align-items: center;
+}

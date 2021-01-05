@@ -2,6 +2,14 @@ var date = new Date();
 console.log(date)
 
 //  starting
+function fx() {
+    let day = new Date();
+    $('.mon').removeClass("remove");
+    $('.the').removeClass("remove");
+    $('.wed').removeClass("remove");
+    $('.thu').removeClass("remove");
+    $('.fri').removeClass("remove");
+}
 var day = date.getDay();
 var hrs = date.getHours();
 console.log(hrs)

@@ -26,3 +26,12 @@ body {
     position: relative;
     align-items: center;
 }
+
+.time-table {
+    position: relative;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.abc {
+    background-color: #30475e;
+}

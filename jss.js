@@ -4,11 +4,19 @@ console.log(date)
 //  starting
 function fx() {
     let day = new Date();
-    $('.mon').removeClass("remove");
-    $('.the').removeClass("remove");
-    $('.wed').removeClass("remove");
-    $('.thu').removeClass("remove");
-    $('.fri').removeClass("remove");
+    // $('.mon').removeClass("remove");
+    // $('.the').removeClass("remove");
+    // $('.wed').removeClass("remove");
+    // $('.thu').removeClass("remove");
+    // $('.fri').removeClass("remove");
+    $('.mon').fadeIn();
+    $('.the').fadeIn();
+    $('.wed').fadeIn();
+    $('.thu').fadeIn();
+    $('.fri').fadeIn();
+
+
+
 }
 var day = date.getDay();
 var hrs = date.getHours();

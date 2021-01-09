@@ -35,3 +35,9 @@ body {
 .abc {
     background-color: #30475e;
 }
+
+.weekday {
+    position: relative;
+    margin-top: .5rem;
+    font-size: 3.5rem;
+}

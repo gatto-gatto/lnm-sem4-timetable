@@ -22,7 +22,8 @@ var day = date.getDay();
 var hrs = date.getHours();
 console.log(hrs)
 if (day == 0 || day == 6) {
-    $('.weekday').removeClass("remove")
+    $('.weekday').removeClass("remove");
+    $('.weekday').removeClass("remove");
 } else {
     if (day == 1) {
         $('.mon').removeClass("remove");

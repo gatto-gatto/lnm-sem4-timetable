@@ -33,6 +33,7 @@ if (day == 0 || day == 6) {
         } else if (hrs == 11) {
             $('.daa-link').removeClass("btn-secondary");
             $('.daa-link').addClass("btn-primary");
+            window.open("https://meet.google.com/lookup/h6i5dgjoi7?authuser=2&hs=179");
         } else if (hrs == 12) {
             $('.cse-link').removeClass("btn-secondary");
             $('.cse-link').addClass("btn-primary");
